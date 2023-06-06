@@ -1,0 +1,90 @@
+@media (min-width: 1080px) {
+  .hills {
+    height: 266px;
+  }
+
+  h1 {
+    width: 440px;
+    height: 29px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 7.5px;
+    margin-top: 132px;
+    margin-bottom: 104px;
+  }
+
+  .container {
+    gap: 32px;
+  }
+
+  .top,
+  .bottom,
+  .flip-card .top-flip,
+  .flip-card .bottom-flip {
+    width: 148px;
+    height: 70px;
+  }
+
+  .top,
+  .flip-card .top-flip {
+    font-size: 80px;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .bottom,
+  .flip-card .bottom-flip {
+    font-size: 80px;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 16px 0px 0px rgba(25, 26, 35, 1);
+  }
+
+  .top,
+  .flip-card .top-flip {
+    color: #fb5e84;
+    font-size: 80px;
+    line-height: 140px;
+    letter-spacing: -2.4px;
+
+    background-color: #343650;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .bottom,
+  .flip-card .bottom-flip {
+    color: #fb5e84;
+    font-size: 80px;
+    line-height: 140px;
+    letter-spacing: -2.4px;
+    background-color: #343650;
+    border-radius: 0 0 8px 8px;
+    align-items: flex-end;
+    box-shadow: 0px 16px 0px 0px rgba(25, 26, 35, 1);
+  }
+
+  h3 {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 5.91875px;
+    margin-top: 32px;
+  }
+
+  .facebook-logo:hover path {
+    fill: #fb5e84;
+    cursor: pointer;
+  }
+
+  .pinterest-logo:hover path {
+    fill: #fb5e84;
+    cursor: pointer;
+  }
+  .instagram-logo:hover path {
+    fill: #fb5e84;
+    cursor: pointer;
+  }
+}
