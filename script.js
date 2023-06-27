@@ -5,11 +5,10 @@ let previousTimeBetweenDates;
 setInterval(() => {
   const currentDate = new Date();
   const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000);
-
   flipAllCards(timeBetweenDates);
 
   previousTimeBetweenDates = timeBetweenDates;
-}, 250);
+}, 1000);
 
 function flipAllCards(time) {
   const seconds = Math.floor(time % 60);
